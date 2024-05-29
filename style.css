@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    
+}
+header{
+    background-color: yellow;
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.3em 1em;
+    position: fixed ;
+    left: 0;
+    right: 0;
+
+}
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    justify-content: flex-end;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap:25px;
+
+}
+section aside{
+    width:360px;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    top:60px;
+    bottom:0;
+}
+section aside img{
+    width: 260px;
+    border-radius: 50%;
+}
+section main{
+    flex: 1;
+    margin-left: 400px;
+    padding: 60px;
+}
+
+
+
+
